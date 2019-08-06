@@ -1,0 +1,134 @@
+.cls_skClockHeaderWrapper {
+  background-color: #000;
+  height: 40px;
+  padding: .5rem 1rem;
+}
+
+.cls_skClockHeader {
+  color: #FFF;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+
+.cls_skContentWrap {
+  align-items: center;
+  background-color: #282C34;
+  border: 1rem solid #32363E;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 14rem;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 14rem;
+}
+.cls_skDate {
+  color: #61DAFB;
+  font-size: 14px;
+  font-weight: 300;
+}
+.cls_skTime {
+  color: #61DAFB;
+  font-size: 42px;
+  font-weight: 600;
+
+}
+.cls_skDateHide {
+  display: none;
+}
+.cls_skShowDateInputWrap {
+  justify-content: center;
+  margin: 20px auto;
+  /* text-align: center; */
+  /* width: 100%; */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 14rem;
+}
+.cls_skShowDateInputWrap  input[type="checkbox"] {
+  text-align: center;
+  padding: 0.5rem;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  
+}
+
+.cls_skShowDateInputWrap {
+  padding: 0.5rem;
+  display: inline-block;
+  width: 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;  
+  height: 4rem;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 14rem;
+  height: 34px;
+}
+.cls_skSwitch {
+  padding: 0.5rem;
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 24px;
+}
+.cls_skHeaderText,.cls_skheadImg {
+  display: inline-block;
+}
+.cls_skheadImg img {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.cls_skCalImg {
+  padding-left: 15px 
+}
+.cls_skCalImg img {
+  width: 42px;
+  height: 42px;
+}
+.slider {
+  border-radius: 34px;
+}
+.slider:before {
+  border-radius: 50%;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 7px;
+  bottom: 7px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+#id_skChecked:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#id_skChecked {
+  background-color: #61DAFB;
+}
